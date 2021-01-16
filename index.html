@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Populasi penduduk di dunia berdasarkan benua 2019</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- impor Chart.js library melalui CDN, per dokumentasi Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js" defer></script>
+    
+    <!-- impor css -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- impor javascript -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <center>
+    <h1>Populasi penduduk di dunia berdasarkan benua 2019</h1>
+      Unit: Jutaan
+    <br />
+    <div class="chart-container"> <!-- Tampilkan chart bar -->
+      <canvas id="barChart" aria-label="Chart bar menampilkan populasi benua" role="img">
+      </canvas>
+    </div>
+      <br />
+    <div class="chart-container"> <!-- Tampilkan chart pie -->
+      <canvas id="pieChart" aria-label="Chart pie menampilkan populasi benua" role="img">
+      </canvas>
+    </div>
+    <br />
+    <p>
+      Data dari <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia</a>, diambil 1/2/2019
+    </p>    
+      <br />
+    </center>
+  </body>
+</html>
